@@ -1,0 +1,17 @@
+generator:
+  default:
+    code: "default"
+    price: 5000
+    slot: 0
+    materials:
+      DIRT: 50
+      DIORITE: 50
+  TEST:
+    requiredPermission:
+      - "default"
+    code: "TEST"
+    price: 5000
+    slot: 1
+    materials:
+      RED_STAINED_GLASS: 50
+      GREEN_STAINED_GLASS: 50
